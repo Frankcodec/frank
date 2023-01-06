@@ -1,0 +1,131 @@
+.body{
+		margin: 0;
+		font-family: sans-serif; 
+		overflow-x: hidden;
+	    background-color: #212020;        
+	    width: 100%;    
+	    position: relative; 
+	    display: grid;
+		grid-template-columns: 14% 64% 14%;
+		grid-gap: 55px;  
+		overflow-y: hidden;                              
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #212020;
+	}
+	h1{
+		text-align: center;
+		color: #047aed;
+	}
+	h2{
+		font-family: millik;
+	}
+	.subform button{
+		width: 151px;
+		height: 45px;
+		font-size: 16px;
+		color: #fff;
+		background-color: black;
+		border: none;
+		margin-top: 15%;
+	}
+	#section{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between; 
+	}
+	#sections{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	#style{
+		width: 165px;
+		height: 245px;
+		background: #fff;
+		box-shadow: 1px 1px 19px -5px grey;
+		margin: 0 8px;
+	}
+	a{
+		text-decoration: none;
+	}
+	#image{
+		width: 165px;
+		height: 185px;
+		object-fit: cover;
+	}
+	#move{
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		border: none;
+		font-size: 21px;
+		background: #fff;
+		margin-top: 0.7%;
+	}
+	#unmove{
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		margin-left: 92%;
+		border: none;
+		background: #fff;
+		font-size: 21px;
+	}
+	#move:hover, #unmove:hover{
+		background: darkgrey;
+		border: none;
+		opacity: 1;
+		color: #fff;
+	}
+	.gridone, .gridtwo, .gridthree{
+		background-color: #fff;
+		border-radius: 15px;
+		margin: 9px 0 9px 0;
+		overflow-x: hidden;
+	}
+	.gridone{
+		height: 300px;
+		margin-top: 25px;
+		position: relative; 
+		width: 96%;
+		overflow: hidden;
+		
+	}
+	.gridthree{
+		height: 400px;
+		margin-top: 25px;
+		position: relative;
+		width: 96%;
+		overflow: hidden;
+	}
+	.gridtwo{
+		border-radius: 0;
+		height: 100%;
+		position: relative;
+	}
+	.gridoneb{
+		margin-top: 45%;
+		background-color: #fff;
+		width: 96%;
+		overflow-x: hidden;
+		padding: 8px;
+		height: 300px;
+		border-radius: 15px;
+	}
+	.picture{
+		width: 100%;
+		object-fit: cover;
+	}
+	@media screen and (max-width: 900px){
+		.body{
+			display: flex;
+			flex-direction: column;
+			position: all;
+		}
+		.gridone, .gridthree{
+			width: 100%;
+		}
+	}
